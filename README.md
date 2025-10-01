@@ -1,7 +1,7 @@
 ﻿<h1 align="center">Atlas Waypoint: Customer 360 & Health</h1>
 
 <p align="center">
-  Identity resolution and daily customer health scoring for Atlas, built with dbt and Snowflake.
+  Consolidates customer data and produces daily health insights for Atlas, built with dbt and Snowflake.
   <br/><br/>
 </p>
 
@@ -22,9 +22,9 @@ The output powers the **Customer Current Position Report**:
 
 Waypoint follows a hybrid approach:  
 
-**Reference layer**: normalized, history where needed.  
+The **Reference layer** is normalized.  
 
-**Mart layer**: a lean star schema for BI, mostly flattened dimensions.  
+The **Mart layer** is a lean star schema for BI.  
 
 
 Core entities include:  
@@ -39,11 +39,11 @@ Core entities include:
 
 ---
 
-**Current status** 
+**Current Jira status**
 
-Sprint 1 in progress.
+Sprint 1 (Blueprints and Staging) is active.  
 
-Mid-sprint snapshot: `project/sprint-summaries/sprint-01.md`.
+Progress and artifacts are being tracked in Jira.  
 
 | Process                   | Documentation                                                             |
 |---------------------------|---------------------------------------------------------------------------|
