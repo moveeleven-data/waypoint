@@ -1,6 +1,7 @@
 ﻿# Sprint 1, Blueprints and Staging
 
-**Goal**: Approve the Customer Health mart blueprint and the reference blueprint, and build first staging models with freshness checks.
+**Goal**: Approve the Customer Health mart blueprint and the refined layer blueprint, and build first staging models 
+with freshness checks.
 
 **Status (mid-sprint)**: On track.
 
@@ -23,7 +24,7 @@
 ## Stories in Sprint 1
 
 - Create Customer Health mart blueprint  
-- Create reference layer blueprint  
+- Create Refined layer blueprint  
 - Publish intake and change request forms  
 - Connect GitHub to Jira and verify Development panel  
 

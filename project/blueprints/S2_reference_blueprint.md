@@ -1,4 +1,4 @@
-﻿# S2 Reference blueprint
+﻿# S2 Refined Layer blueprint
 
 **Identity**
 - map_source_to_customer: hubspot_company_id, stripe_customer_id, zendesk_org_id, app_account_id

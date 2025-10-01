@@ -24,7 +24,7 @@ The output powers the **Customer Revenue & Support Overview**:
 
 Waypoint follows a hybrid approach:  
 
-The **Reference layer** is normalized.  
+The **Refined layer** is normalized.  
 
 The **Mart layer** is a lean star schema for BI.  
 
@@ -49,13 +49,13 @@ Progress and artifacts are being tracked in Jira.
 
 | Process                   | Documentation                                                             |
 |---------------------------|---------------------------------------------------------------------------|
-| Sprint 1 Overview         | [Mid-sprint summary](project/sprint-summaries/sprint-01.md)                 |
+| Sprint 1 Overview         | [Mid-sprint summary](project/sprint-summaries/sprint-01.md)               |
 | Sprint backlog view       | [Backlog, mid-sprint](project/sprint-summaries/sprint-01_mid_backlog.jpg) |
-| Active sprint board       | [Board, mid-sprint](project/sprint-summaries/sprint-01_mid_board.jpg) |
-| Release Overview - Week 1 | [Releases panel (W1)](project/assets/releases_panel_w1_2025-10-01_v1.jpg) |
-| Release Overview - Week 2 | [Releases panel (W2)](project/assets/releases_panel_w2_2025-10-01_v1.jpg) |
-| Release Overview - Week 3 | [Releases panel (W3)](project/assets/releases_panel_w3_2025-10-01_v1.jpg) |
-| Release Overview - Week 4 | [Releases panel (W4)](project/assets/releases_panel_w4_2025-10-01_v1.jpg) |
+| Active sprint board       | [Board, mid-sprint](project/sprint-summaries/sprint-01_mid_board.jpg)     |
+| Release Overview - Week 1 | [Releases panel (W1)](project/assets/releases_panel_w1_2025-10-01_v2.jpg) |
+| Release Overview - Week 2 | [Releases panel (W2)](project/assets/releases_panel_w2_2025-10-01_v2.jpg) |
+| Release Overview - Week 3 | [Releases panel (W3)](project/assets/releases_panel_w3_2025-10-01_v2.jpg) |
+| Release Overview - Week 4 | [Releases panel (W4)](project/assets/releases_panel_w4_2025-10-01_v2.jpg) |
 | Automation rules          | [Snapshot](project/assets/automation_rules_2025-10-01.jpg)                |
 
 ---
@@ -67,7 +67,7 @@ Atlas Waypoint emphasizes governed, traceable workflows
 All process records live under [`project/`](project/).
 
 [**PROCESS.md**](project/PROCESS.md) - week-by-week build log  
-[**blueprints/**](project/blueprints/) - mart and reference designs (S1, S2)  
+[**blueprints/**](project/blueprints/) - mart and refined layer designs
 [**adrs/**](project/adrs/) - concise architectural decisions  
 [**sprint-summaries/**](project/sprint-summaries/) - Jira boards, notes, and sprint outcomes  
 [**qa/**](project/qa/) - acceptance checks and data-diff artifacts  

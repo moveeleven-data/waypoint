@@ -14,7 +14,7 @@ DoD: contract and tests, runbook link, lineage visible, acceptance check recorde
 
 ## Timeline
 
-Week 1: S1 mart blueprint, S2 reference sketch, staging and freshness SLOs
+Week 1: S1 mart blueprint, S2 refined layer sketch, staging and freshness SLOs
 
 Week 2: identity SCD2, support ticket daily fact
 
@@ -33,7 +33,8 @@ Week 4: final report, exposures, runbooks, optional Airflow job
 
 ## Week 1, mid-sprint snapshot
 
-Planned: complete Customer Health mart blueprint, Reference blueprint, publish intake/change request forms, and connect GitHub.
+Planned: complete Customer Health mart blueprint, Refined layer blueprint, publish intake/change request forms, and 
+connect GitHub.
 
 Shipped so far: repo scaffold, board configured, custom fields added, labels created, Sprint 1 started, release 
 versions W1–W4 created.
