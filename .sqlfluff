@@ -1,0 +1,3 @@
+﻿[sqlfluff]
+dialect = snowflake
+exclude_rules = L009

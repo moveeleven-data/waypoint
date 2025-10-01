@@ -1,0 +1,16 @@
+﻿name: "atlas_waypoint"
+version: "1.0"
+config-version: 2
+
+profile: "atlas_waypoint"
+
+model-paths: ["analytics/models"]
+macro-paths: ["analytics/macros"]
+seed-paths: ["analytics/seeds"]
+snapshot-paths: ["analytics/snapshots"]
+test-paths: ["analytics/tests"]
+analysis-paths: ["analytics/analyses"]
+
+models:
+  atlas_waypoint:
+    +materialized: view

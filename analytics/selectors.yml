@@ -1,0 +1,8 @@
+﻿selectors:
+  - name: marts_modified
+    definition:
+      method: state
+      value: modified
+      children: true
+      selection:
+        - tag: mart
