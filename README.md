@@ -1,7 +1,7 @@
 ﻿<h1 align="center">Atlas Waypoint: Customer 360 & Health</h1>
 
 <p align="center">
-  Identity resolution and daily customer health scoring for Atlas, built with dbt + Snowflake.
+  Identity resolution and daily customer health scoring for Atlas, built with dbt and Snowflake.
   <br/><br/>
 </p>
 
@@ -12,9 +12,9 @@ Waypoint is the **customer backbone** for Atlas, a B2B SaaS company.
 It unifies identities across CRM, billing, support, and product usage, then publishes a clear daily health score.  
 
 The output powers the **Customer Current Position Report**:  
-- **Risk watchlist** – which accounts are at risk, with transparent reasons.  
-- **Expansion signals** – which accounts show overage or healthy adoption.  
-- **SLA snapshot** – support responsiveness and breach rates.  
+- **Risk watchlist** - which accounts are at risk, with transparent reasons.  
+- **Expansion signals** - which accounts show overage or healthy adoption.  
+- **SLA snapshot** - support responsiveness and breach rates.  
 
 ---
 
@@ -28,13 +28,28 @@ Waypoint follows a hybrid approach:
 
 
 Core entities include:  
-- **core.map_source_to_customer** – crosswalk of source IDs.  
-- **core.dim_customer** – golden customer SCD2 with current view.  
-- **ref.fact_support_ticket_daily** – SLA and resolution metrics.  
-- **ref.fact_usage_health_daily** – usage and overage features.  
-- **marts.customer_health_daily** – one row per customer per day with score + risk band.  
+
+- **core.map_source_to_customer** - crosswalk of source IDs.  
+- **core.dim_customer** - golden customer SCD2 with current view.  
+- **ref.fact_support_ticket_daily** - SLA and resolution metrics.  
+- **ref.fact_usage_health_daily** - usage and overage features.  
+- **marts.customer_health_daily** - one row per customer per day with score + risk band.  
 
 ![Waypoint Lineage](project/lineage/lineage_v1.png)
+
+---
+
+> **Current status**  
+> Sprint 1 in progress. 4 stories in Sprint 1, 3 in Sprint 2, 13 in backlog.  
+> Mid-sprint snapshot: `project/sprint-summaries/sprint-01.md`.
+
+| Process                     | Documentation                                      |
+|-----------------------------|----------------------------------------------------|
+| Sprint 1 mid-sprint summary | project/sprint-summaries/sprint-01.md              |
+| Backlog screenshot          | project/sprint-summaries/sprint-01_mid_backlog.png |
+| Board screenshot            | project/sprint-summaries/sprint-01_mid_board.png   |
+| Releases page               | project/assets/releases_panel_w1-w4_2025-10-01.png |
+| Automation rules            | project/assets/automation_rules_2025-10-01.png     |
 
 ---
 
@@ -68,7 +83,7 @@ All dbt assets and transformations are grouped under `analytics/`.
 
 ---
 
-## Supporting Infrastructure
+## Supporting Docs
 
 **.github/** - issue and PR templates enforcing consistency  
 **.pre-commit-config.yaml**, **.sqlfluff** - style and linting  

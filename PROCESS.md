@@ -28,3 +28,20 @@ Week 4: final report, exposures, runbooks, optional Airflow job
 - Runbooks: ./project/runbooks
 - Acceptance: ./project/qa/acceptance
 - Diffs and releases: ./project/qa/data-diff and Releases tab
+
+---
+
+## Week 1, mid-sprint snapshot
+
+Planned: complete Customer Health mart blueprint, Reference blueprint, publish intake/change request forms, and connect GitHub.
+
+Shipped so far: repo scaffold, board configured, custom fields added, labels created, Sprint 1 started, release 
+versions W1–W4 created.
+
+Evidence:
+- Backlog and sprints: `project/sprint-summaries/sprint-01_mid_backlog.png`
+- Board view: `project/sprint-summaries/sprint-01_mid_board.png`
+- Releases page (W1–W4): `project/assets/releases_panel_w1-w4_2025-10-01.png`
+- Automation rules: `project/assets/automation_rules_2025-10-01.png`
+
+Risks or notes: none blocking. Blueprint drafts underway.

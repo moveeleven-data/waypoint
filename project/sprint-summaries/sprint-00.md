@@ -1,13 +1,36 @@
-﻿# Sprint 00 summary
+﻿# Sprint 1, Blueprints and Staging
 
-**Goal:** Scaffold and evidence.
+**Goal**: Approve the Customer Health mart blueprint and the reference blueprint, and build first staging models with freshness checks.
 
-**Done**
-- Repo structure created
-- S1 and S2 blueprints drafted
-- ADR-001 grain and naming
-- README billboard and PROCESS.md added
-- First lineage screenshot placeholder
+**Status (mid-sprint)**: On track.
 
-**Evidence**
-- Board before/after and one story screenshot
+---
+
+## Snapshot
+
+- Backlog: ![Backlog](./sprint-01_mid_backlog.png)  
+- Board: ![Board](./sprint-01_mid_board.png)  
+
+---
+
+## Project settings
+
+- Versions: ![Releases](../assets/releases_panel_w1-w4_2025-10-01.png)  
+- Automation rules: ![Automation](../assets/automation_rules_2025-10-01.png)  
+
+---
+
+## Stories in Sprint 1
+
+- Create Customer Health mart blueprint  
+- Create reference layer blueprint  
+- Publish intake and change request forms  
+- Connect GitHub to Jira and verify Development panel  
+
+---
+
+## Definition of done
+
+- Contract and tests on new models  
+- Runbook link present where operational  
+- Evidence linked from the story  
