@@ -50,10 +50,10 @@ Mid-sprint snapshot: `project/sprint-summaries/sprint-01.md`.
 | Sprint 1 mid-sprint summary | [project/sprint-summaries/sprint-01.md](project/sprint-summaries/sprint-01.md)                           |
 | Backlog screenshot          | [project/sprint-summaries/sprint-01_mid_backlog.jpg](project/sprint-summaries/sprint-01_mid_backlog.jpg) |
 | Board screenshot            | [project/sprint-summaries/sprint-01_mid_board.jpg](project/sprint-summaries/sprint-01_mid_board.jpg)     |
-| Releases W1                 | [project/assets/releases_panel_w1_2025-10-01.jpg](project/assets/releases_panel_w1_2025-10-01.jpg)       |
-| Releases W2                 | [project/assets/releases_panel_w2_2025-10-01.jpg](project/assets/releases_panel_w2_2025-10-01.jpg)       |
-| Releases W3                 | [project/assets/releases_panel_w3_2025-10-01.jpg](project/assets/releases_panel_w3_2025-10-01.jpg)       |
-| Releases W4                 | [project/assets/releases_panel_w4_2025-10-01.jpg](project/assets/releases_panel_w4_2025-10-01.jpg)       |
+| Releases W1                 | [project/assets/releases_panel_w1_2025-10-01.jpg](project/assets/releases_panel_w1_2025-10-01_v1.jpg)    |
+| Releases W2                 | [project/assets/releases_panel_w2_2025-10-01.jpg](project/assets/releases_panel_w2_2025-10-01_v1.jpg)    |
+| Releases W3                 | [project/assets/releases_panel_w3_2025-10-01.jpg](project/assets/releases_panel_w3_2025-10-01_v1.jpg)    |
+| Releases W4                 | [project/assets/releases_panel_w4_2025-10-01.jpg](project/assets/releases_panel_w4_2025-10-01_v1.jpg)    |
 | Automation rules            | [project/assets/automation_rules_2025-10-01.jpg](project/assets/automation_rules_2025-10-01.jpg)         |
 
 ---
