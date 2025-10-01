@@ -1,4 +1,4 @@
-﻿<h1 align="center">Atlas Waypoint: Customer 360 & Health</h1>
+﻿<h1 align="center">Atlas Waypoint: Unified Customer View</h1>
 
 <p align="center">
   Consolidates customer data and produces daily health insights for Atlas, built with dbt and Snowflake.
@@ -7,11 +7,13 @@
 
 ## Business Story
 
-Waypoint is the **customer backbone** for Atlas, a B2B SaaS company.  
+Waypoint serves as the **customer backbone** for Atlas, a B2B SaaS company.
 
-It unifies identities across CRM, billing, support, and product usage, then publishes a clear daily health score.  
+It unifies identities across CRM, billing, support, and product usage.
 
-The output powers the **Customer Current Position Report**:  
+Daily signals on risk and expansion flow into Atlas reports.
+
+The output powers the **Customer Revenue & Support Overview**:  
 - **Risk watchlist** - which accounts are at risk, with transparent reasons.  
 - **Expansion signals** - which accounts show overage or healthy adoption.  
 - **SLA snapshot** - support responsiveness and breach rates.  
