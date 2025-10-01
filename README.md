@@ -1,27 +1,79 @@
-﻿# Atlas Waypoint
+﻿<h1 align="center">Atlas Waypoint: Customer 360 & Health</h1>
 
-1) [PROCESS.md](./PROCESS.md) for how I worked, week by week  
-2) [project/sprint-summaries](./project/sprint-summaries) for Jira screenshots and notes  
-3) [project/reports/customer_current_position.pdf](./project/reports/customer_current_position.pdf) for the finished brief  
-4) [project/adrs](./project/adrs) for decisions and tradeoffs  
-5) dbt docs link (added after first docs build)
+<p align="center">
+  Identity resolution and daily customer health scoring for Atlas, built with dbt + Snowflake.
+  <br/><br/>
+</p>
 
-**Outcomes:** golden customer SCD2, simple star mart for health, freshness and drift checks, weekly Customer Current Position report  
-**Process:** report first, light mart blueprint, light reference blueprint, build in thin vertical slices, test and diff before publish
+## Business Story
 
-## Evidence index
-| Area | Link |
-|---|---|
-| Blueprints | ./project/blueprints |
-| Decisions | ./project/adrs |
-| Runbooks | ./project/runbooks |
-| Acceptance checks | ./project/qa/acceptance |
-| Data diffs | ./project/qa/data-diff |
-| Sprint summaries | ./project/sprint-summaries |
+Waypoint is the **customer backbone** for Atlas, a B2B SaaS company.  
 
-## Quality scoreboard
-- dbt models: 0
-- dbt tests: 0
-- Freshness SLO: n/a
-- Anomaly alerts last 7 days: n/a
-- Data-diff gate: n/a
+It unifies identities across CRM, billing, support, and product usage, then publishes a clear daily health score.  
+
+The output powers the **Customer Current Position Report**:  
+- **Risk watchlist** – which accounts are at risk, with transparent reasons.  
+- **Expansion signals** – which accounts show overage or healthy adoption.  
+- **SLA snapshot** – support responsiveness and breach rates.  
+
+---
+
+## Data Model
+
+Waypoint follows a hybrid approach:  
+
+**Reference layer**: normalized, history where needed.  
+
+**Mart layer**: a lean star schema for BI, mostly flattened dimensions.  
+
+
+Core entities include:  
+- **core.map_source_to_customer** – crosswalk of source IDs.  
+- **core.dim_customer** – golden customer SCD2 with current view.  
+- **ref.fact_support_ticket_daily** – SLA and resolution metrics.  
+- **ref.fact_usage_health_daily** – usage and overage features.  
+- **marts.customer_health_daily** – one row per customer per day with score + risk band.  
+
+![Waypoint Lineage](project/lineage/lineage_v1.png)
+
+---
+
+## Process Documentation
+
+Atlas Waypoint emphasizes **governed, traceable workflows** as much as data modeling.  
+All process records live under `project/`.
+
+**PROCESS.md** - week-by-week build log  
+**blueprints/** - mart and reference designs (S1, S2)  
+**adrs/** - concise architectural decisions  
+**sprint-summaries/** - Jira boards, notes, and sprint outcomes  
+**qa/** - acceptance checks and data-diff artifacts  
+**reports/** - published Customer Current Position brief  
+**runbooks/** - operational procedures for late data, backfills, and schema change  
+**assets/** - screenshots and supporting artifacts  
+
+---
+
+## Analytics Codebase
+
+All dbt assets and transformations are grouped under `analytics/`.
+
+**models/** - sources, staging, core, ref, marts, exposures  
+**macros/** - reusable SQL logic  
+**tests/** - singular and generic dbt tests  
+**seeds/** - static reference data  
+**snapshots/** - slowly changing dimensions  
+**analyses/** - ad-hoc SQL for exploration  
+**selectors.yml** - model/test selector definitions  
+
+---
+
+## Supporting Infrastructure
+
+**.github/** - issue and PR templates enforcing consistency  
+**.pre-commit-config.yaml**, **.sqlfluff** - style and linting  
+**profiles-example.yml** - warehouse profile
+
+---
+
+<p align="center">Designed and maintained by <a href="https://github.com/moveeleven-data">Matthew Tripodi</a></p>
