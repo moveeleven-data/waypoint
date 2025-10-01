@@ -41,7 +41,7 @@ Core entities include:
 
 **Current status** 
 
-Sprint 1 in progress. 4 stories in Sprint 1, 3 in Sprint 2, 13 in backlog.  
+Sprint 1 in progress.
 
 Mid-sprint snapshot: `project/sprint-summaries/sprint-01.md`.
 
@@ -60,7 +60,8 @@ Mid-sprint snapshot: `project/sprint-summaries/sprint-01.md`.
 
 ## Process Documentation
 
-Atlas Waypoint emphasizes **governed, traceable workflows** as much as data modeling.  
+Atlas Waypoint emphasizes governed, traceable workflows
+.  
 All process records live under [`project/`](project/).
 
 [**PROCESS.md**](project/PROCESS.md) - week-by-week build log  
