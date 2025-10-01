@@ -35,24 +35,26 @@ Core entities include:
 - **ref.fact_usage_health_daily** - usage and overage features.  
 - **marts.customer_health_daily** - one row per customer per day with score + risk band.  
 
-![Waypoint Lineage](project/lineage/lineage_v1.png)
+![Waypoint Lineage](project/lineage/lineage_v1.png) (WIP)
 
 ---
 
-> **Current status**  
-> Sprint 1 in progress. 4 stories in Sprint 1, 3 in Sprint 2, 13 in backlog.  
-> Mid-sprint snapshot: `project/sprint-summaries/sprint-01.md`.
+**Current status** 
 
-| Process                     | Documentation                                                                 |
-|-----------------------------|-------------------------------------------------------------------------------|
-| Sprint 1 mid-sprint summary | [project/sprint-summaries/sprint-01.md](project/sprint-summaries/sprint-01.md) |
-| Backlog screenshot          | [project/sprint-summaries/sprint-01_mid_backlog.png](project/sprint-summaries/sprint-01_mid_backlog.png) |
-| Board screenshot            | [project/sprint-summaries/sprint-01_mid_board.png](project/sprint-summaries/sprint-01_mid_board.png) |
-| Releases W1                 | [project/assets/releases_panel_w1_2025-10-01.png](project/assets/releases_panel_w1_2025-10-01.png) |
-| Releases W2                 | [project/assets/releases_panel_w2_2025-10-01.png](project/assets/releases_panel_w2_2025-10-01.png) |
-| Releases W3                 | [project/assets/releases_panel_w3_2025-10-01.png](project/assets/releases_panel_w3_2025-10-01.png) |
-| Releases W4                 | [project/assets/releases_panel_w4_2025-10-01.png](project/assets/releases_panel_w4_2025-10-01.png) |
-| Automation rules            | [project/assets/automation_rules_2025-10-01.png](project/assets/automation_rules_2025-10-01.png) |
+Sprint 1 in progress. 4 stories in Sprint 1, 3 in Sprint 2, 13 in backlog.  
+
+Mid-sprint snapshot: `project/sprint-summaries/sprint-01.md`.
+
+| Process                     | Documentation                                                                                            |
+|-----------------------------|----------------------------------------------------------------------------------------------------------|
+| Sprint 1 mid-sprint summary | [project/sprint-summaries/sprint-01.md](project/sprint-summaries/sprint-01.md)                           |
+| Backlog screenshot          | [project/sprint-summaries/sprint-01_mid_backlog.jpg](project/sprint-summaries/sprint-01_mid_backlog.jpg) |
+| Board screenshot            | [project/sprint-summaries/sprint-01_mid_board.jpg](project/sprint-summaries/sprint-01_mid_board.jpg)     |
+| Releases W1                 | [project/assets/releases_panel_w1_2025-10-01.jpg](project/assets/releases_panel_w1_2025-10-01.jpg)       |
+| Releases W2                 | [project/assets/releases_panel_w2_2025-10-01.jpg](project/assets/releases_panel_w2_2025-10-01.jpg)       |
+| Releases W3                 | [project/assets/releases_panel_w3_2025-10-01.jpg](project/assets/releases_panel_w3_2025-10-01.jpg)       |
+| Releases W4                 | [project/assets/releases_panel_w4_2025-10-01.jpg](project/assets/releases_panel_w4_2025-10-01.jpg)       |
+| Automation rules            | [project/assets/automation_rules_2025-10-01.jpg](project/assets/automation_rules_2025-10-01.jpg)         |
 
 ---
 
@@ -61,14 +63,14 @@ Core entities include:
 Atlas Waypoint emphasizes **governed, traceable workflows** as much as data modeling.  
 All process records live under [`project/`](project/).
 
-- [**PROCESS.md**](project/PROCESS.md) - week-by-week build log  
-- [**blueprints/**](project/blueprints/) - mart and reference designs (S1, S2)  
-- [**adrs/**](project/adrs/) - concise architectural decisions  
-- [**sprint-summaries/**](project/sprint-summaries/) - Jira boards, notes, and sprint outcomes  
-- [**qa/**](project/qa/) - acceptance checks and data-diff artifacts  
-- [**reports/**](project/reports/) - published Customer Current Position brief  
-- [**runbooks/**](project/runbooks/) - operational procedures for late data, backfills, and schema change  
-- [**assets/**](project/assets/) - screenshots and supporting artifacts  
+[**PROCESS.md**](project/PROCESS.md) - week-by-week build log  
+[**blueprints/**](project/blueprints/) - mart and reference designs (S1, S2)  
+[**adrs/**](project/adrs/) - concise architectural decisions  
+[**sprint-summaries/**](project/sprint-summaries/) - Jira boards, notes, and sprint outcomes  
+[**qa/**](project/qa/) - acceptance checks and data-diff artifacts  
+[**reports/**](project/reports/) - published Customer Current Position brief  
+[**runbooks/**](project/runbooks/) - operational procedures for late data, backfills, and schema change  
+[**assets/**](project/assets/) - screenshots and supporting artifacts  
 
 ---
 
@@ -76,21 +78,21 @@ All process records live under [`project/`](project/).
 
 All dbt assets and transformations are grouped under [`analytics/`](analytics/).
 
-- [**models/**](analytics/models/) - sources, staging, core, ref, marts, exposures  
-- [**macros/**](analytics/macros/) - reusable SQL logic  
-- [**tests/**](analytics/tests/) - singular and generic dbt tests  
-- [**seeds/**](analytics/seeds/) - static reference data  
-- [**snapshots/**](analytics/snapshots/) - slowly changing dimensions  
-- [**analyses/**](analytics/analyses/) - ad-hoc SQL for exploration  
-- [**selectors.yml**](analytics/selectors.yml) - model/test selector definitions  
+[**models/**](analytics/models/) - sources, staging, core, ref, marts, exposures  
+[**macros/**](analytics/macros/) - reusable SQL logic  
+[**tests/**](analytics/tests/) - singular and generic dbt tests  
+[**seeds/**](analytics/seeds/) - static reference data  
+[**snapshots/**](analytics/snapshots/) - slowly changing dimensions  
+[**analyses/**](analytics/analyses/) - ad-hoc SQL for exploration  
+[**selectors.yml**](analytics/selectors.yml) - model/test selector definitions  
 
 ---
 
 ## Supporting Docs
 
-- [**.github/**](.github/) - issue and PR templates enforcing consistency  
-- [**.pre-commit-config.yaml**](.pre-commit-config.yaml), [**.sqlfluff**](.sqlfluff) - style and linting  
-- [**profiles-example.yml**](profiles-example.yml) - warehouse profile
+[**.github/**](.github/) - issue and PR templates enforcing consistency  
+[**.pre-commit-config.yaml**](.pre-commit-config.yaml), [**.sqlfluff**](.sqlfluff) - style and linting  
+[**profiles-example.yml**](profiles-example.yml) - warehouse profile
 
 ---
 
