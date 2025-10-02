@@ -52,10 +52,10 @@ Progress and artifacts are being tracked in Jira.
 | Sprint 1 Overview         | [Mid-sprint summary](project/sprint-summaries/sprint-01.md)               |
 | Sprint backlog view       | [Backlog, mid-sprint](project/sprint-summaries/sprint-01_mid_backlog.jpg) |
 | Active sprint board       | [Board, mid-sprint](project/sprint-summaries/sprint-01_mid_board.jpg)     |
-| Release Overview - Week 1 | [Releases panel (W1)](project/assets/releases_panel_w1_2025-10-01_v5.jpg) |
-| Release Overview - Week 2 | [Releases panel (W2)](project/assets/releases_panel_w2_2025-10-01_v3.jpg) |
-| Release Overview - Week 3 | [Releases panel (W3)](project/assets/releases_panel_w3_2025-10-01_v4.jpg) |
-| Release Overview - Week 4 | [Releases panel (W4)](project/assets/releases_panel_w4_2025-10-01_v3.jpg) |
+| Release Overview - Week 1 | [Releases panel (W1)](project/assets/releases_panel_w1_2025-10-01_v6.jpg?v=1) |
+| Release Overview - Week 2 | [Releases panel (W2)](project/assets/releases_panel_w2_2025-10-01_v3.jpg?v=1) |
+| Release Overview - Week 3 | [Releases panel (W3)](project/assets/releases_panel_w3_2025-10-01_v4.jpg?v=1) |
+| Release Overview - Week 4 | [Releases panel (W4)](project/assets/releases_panel_w4_2025-10-01_v3.jpg?v=1) |
 | Automation rules          | [Snapshot](project/assets/automation_rules_2025-10-01.jpg)                |
 
 ---
